@@ -419,6 +419,7 @@
     /* width: 1492px;
     height: 353px; */
     max-width: 1280px;
+    gap: 20px;
 }
 .display-rounded-logo{
     display: flex;
@@ -665,7 +666,7 @@
 .horizontal-container-links{
     display: flex;
     align-items: flex-start;
-    gap: 80px;
+    /* gap: 80px; */
     align-self: stretch;                                                                                                
 }
 .Vertical-Container-links{
