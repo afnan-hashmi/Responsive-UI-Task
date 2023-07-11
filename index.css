@@ -14,6 +14,11 @@
     align-self: stretch; 
     border-bottom: 1px solid var(--gray-300, #2E3545);
 }
+.social-icons-footer{
+    display: flex;
+align-items: flex-start;
+gap: 24px;
+}
 .nav-link{
     font-family: Inter;
     font-size: 15px;
