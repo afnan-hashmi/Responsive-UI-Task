@@ -7,7 +7,7 @@
     align-items: center;
 }
 .Nav-bar-div{
-    padding: 20px 135px;
+    padding: 20px 335px;
     justify-content: center;
     align-items: center;
     gap: 10px; 
@@ -803,6 +803,12 @@ background: var(--gray-950, #151B28);
     }
     .Nav-bar-div {
         padding: 0px 0px 0px 0px;
+    }
+}
+@media only screen and (max-width: 1400px) {
+
+    .Nav-bar-div {
+        padding: 20px 135px;
     }
 }
 @media only screen and (max-width: 375px) {
