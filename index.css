@@ -7,7 +7,7 @@
     align-items: center;
 }
 .Nav-bar-div{
-    padding: 20px 160px;
+    padding: 20px 135px;
     justify-content: center;
     align-items: center;
     gap: 10px; 
@@ -783,6 +783,9 @@ background: var(--gray-950, #151B28);
     .input-stretch{
         align-self: stretch;
     }
+    .content-footer{
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -798,6 +801,9 @@ background: var(--gray-950, #151B28);
     .content-hidden-pricing-md-screen{
         flex-direction: column;
     }
+    .Nav-bar-div {
+        padding: 0px 0px 0px 0px;
+    }
 }
 @media only screen and (max-width: 375px) {
     .content-hidden-pricing-lg-screen{
@@ -806,11 +812,14 @@ background: var(--gray-950, #151B28);
     .content-hidden-pricing-md-screen{
         display: none;
     }
+    .content-call-to-action{
+        padding: 0px 0px 0px 0px;
+    }
 
 }
 @media only screen and (max-width: 583px) {
     .navbar-position{
         flex-wrap: nowrap;
-        justify-content: center;
+        /* justify-content: center; */
     }
 }
